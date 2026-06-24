@@ -1,64 +1,97 @@
 # CodeAlpha_StudentGradeTracker
 
 ## 📌 Overview
-Student Grade Tracker is a Java-based console application developed as part of the CodeAlpha Java Programming Internship. The application helps users manage student academic records by allowing them to enter marks, calculate averages, assign grades, and generate performance reports.
+
+Student Grade Tracker is a Java-based console application developed as part of the CodeAlpha Java Programming Internship. The system enables users to manage student academic records, calculate performance metrics, assign grades, and generate detailed reports. The project demonstrates the practical implementation of Object-Oriented Programming (OOP), Collections Framework, and data management concepts in Java.
 
 ## 🚀 Features
-- Add student details and marks
-- Calculate average marks
-- Assign grades based on performance
-- Display student performance reports
-- Menu-driven interface
-- Input validation for better user experience
+
+* Add student records
+* Store marks for multiple subjects
+* Calculate average marks
+* Find highest and lowest scores
+* Assign grades automatically
+* Search students by ID
+* Identify class topper
+* Calculate class average
+* Generate student performance reports
+* Menu-driven console interface
 
 ## 🛠️ Technologies Used
-- Java
-- Object-Oriented Programming (OOP)
-- Arrays / ArrayLists
-- Loops and Conditional Statements
-- Exception Handling
+
+* Java
+* Object-Oriented Programming (OOP)
+* Collections Framework (ArrayList)
+* Exception Handling
+* IntelliJ IDEA
+* Loops and Conditional Statements
 
 ## 📂 Project Structure
 
 CodeAlpha_StudentGradeTracker
 │
-├── Main.java
-├── Student.java
-├── GradeCalculator.java
+├── src
+│   ├── model
+│   │   └── Student.java
+│   │
+│   ├── service
+│   │   └── GradeTracker.java
+│   │
+│   └── Main.java
+│
 └── README.md
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-   git clone https://github.com/mokshakamra/CodeAlpha_StudentGradeTracker.git
+### Clone the Repository
 
-2. Open the project in your preferred Java IDE.
+```bash
+git clone https://github.com/yourusername/CodeAlpha_StudentGradeTracker.git
+```
 
-3. Compile and run:
-   javac Main.java
-   java Main
+### Open in IntelliJ IDEA
+
+Import the project and ensure JDK 17 or later is configured.
+
+### Run the Application
+
+```bash
+javac Main.java
+java Main
+```
 
 ## 📊 Grade Criteria
 
 | Percentage | Grade |
-|------------|--------|
-| 90 - 100   | A+     |
-| 80 - 89    | A      |
-| 70 - 79    | B      |
-| 60 - 69    | C      |
-| 50 - 59    | D      |
-| Below 50   | F      |
+| ---------- | ----- |
+| 90 - 100   | A+    |
+| 80 - 89    | A     |
+| 70 - 79    | B     |
+| 60 - 69    | C     |
+| Below 60   | F     |
 
 ## 🎯 Learning Outcomes
+
 Through this project, I gained practical experience in:
-- Java Programming
-- Object-Oriented Design
-- Data Handling
-- User Input Management
-- Application Logic Development
+
+* Object-Oriented Programming
+* Class and Object Design
+* Collections Framework
+* Data Processing and Analysis
+* User Input Management
+* Console Application Development
+* Problem Solving and Application Logic Design
+
+## 🔮 Future Enhancements
+
+* File Handling for data persistence
+* Student ranking system
+* Export reports to file
+* Database integration using MySQL
+* GUI implementation using JavaFX
 
 ## 👨‍💻 Author
+
 Moksha Kamra
 
-Java Programming Intern
-CodeAlpha Internship Program
+B.Tech Undergraduate | Java Developer | CodeAlpha Java Programming Intern
