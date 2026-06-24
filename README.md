@@ -30,7 +30,7 @@ CodeAlpha_StudentGradeTracker
 ## ▶️ How to Run
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/CodeAlpha_StudentGradeTracker.git
+   git clone https://github.com/mokshakamra/CodeAlpha_StudentGradeTracker.git
 
 2. Open the project in your preferred Java IDE.
 
