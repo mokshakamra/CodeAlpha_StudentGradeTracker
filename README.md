@@ -46,7 +46,7 @@ CodeAlpha_StudentGradeTracker
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/CodeAlpha_StudentGradeTracker.git
+git clone https://github.com/mokshakamra/CodeAlpha_StudentGradeTracker.git
 ```
 
 ### Open in IntelliJ IDEA
